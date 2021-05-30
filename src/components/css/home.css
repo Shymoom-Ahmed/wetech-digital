@@ -1,0 +1,90 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.hrline {
+    margin: 4%;
+}
+
+.backG {
+    margin: 0;
+    padding: 0;
+    /* background: url(/assets/backg.jpg) no-repeat center top fixed; */
+    background-size: cover;
+    overflow: hidden;
+}
+.box {
+    padding: 0 100px;
+    background-color: rgba(187, 165, 93, 0.8);
+    background-size: cover;
+    height: 99vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.forms {
+    position: relative;
+    width: auto;
+    padding: 1.5%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    color: solid black;
+    border: 2px white;
+    border-radius: 4%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: 0 0 10px 0;
+}
+input,
+button {
+    color: white;
+    text-align: center;
+    width: 75%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px soli white;
+    outline: 0;
+    font-size: 18px;
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.paragraph {
+    width: 70%;
+}
+.paragraph h2 {
+    font-size: 35px;
+    text-align: left;
+    line-height: 157%;
+    color: #000;
+}
+.paragraph p {
+    font-size: 22px;
+    text-align: left;
+    color: #000;
+    margin-top: 1%;
+}
+.button:hover {
+    background-color: white;
+}

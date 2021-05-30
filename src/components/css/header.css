@@ -1,0 +1,35 @@
+.btn-outline-secondary {
+  display: block;
+  width: auto;
+  background: none;
+  color: #e5a900;
+}
+.navbar {
+  padding: 0;
+}
+.logo {
+  width: 28%;
+  height: 28%;
+}
+.bg-primary {
+  background-color: #333 !important;
+}
+@media only screen and (max-width: 600px) {
+  #prim {
+    height: 60px;
+    border-radius: 0.2rem;
+  }
+  #cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .logo {
+    width: 60%;
+    height: 75%;
+  }
+  #navbar1 {
+    width: 55%;
+    height: 3rem;
+  }
+}
